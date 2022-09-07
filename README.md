@@ -41,3 +41,5 @@ clicks on a button
 --grab input value
 --target name element - save it
 --change text content of target name display to input value
+
+![](./name-tag-WF.png)
