@@ -25,3 +25,21 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+### html
+
+input
+button
+h1 for hello
+section as nametag container
+div for name display
+div for bottom section!
+
+### event
+
+clicks on a button
+--grab input value
+--target name element - save it
+--change text content of target name display to input value
+
+![](./name-tag-WF.png)
