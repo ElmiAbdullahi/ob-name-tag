@@ -17,24 +17,21 @@
     </head>
 
     <body>
-        <header>
-            <img src="/assets/html_css_js.png" />
-            <h1>Web App</h1>
-        </header>
+        <section class="main-content">
+            <main>
+                <input type="text" name="name" id="name-input" />
+                <button id="change-name">Submit</button>
 
-        <main>
-            <input type="text" name="name" id="name-input" />
-            <button class="change-name">Submit</button>
+                <div class="container">
+                    <h1 align-center>Hello My Name Is</h1>
+                    <div id="name-display">jackson</div>
+                    <div id="bottom"></div>
+                </div>
+            </main>
 
-            <div class="container">
-                <h1>Hello</h1>
-                <div id="name-display"></div>
-                <div id="bottom"></div>
-            </div>
-        </main>
+            <footer>&copy;2022 Software Developer</footer>
 
-        <footer>&copy;2022 Software Developer</footer>
-
-        <script type="module" src="app.js"></script>
+            <script type="module" src="app.js"></script>
+        </section>
     </body>
 </html>
